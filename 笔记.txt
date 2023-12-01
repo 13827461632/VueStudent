@@ -1,0 +1,25 @@
+{
+  "name": "mystudey-vue03",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {development
+    "dev": "vite",                                 // 默认就是  development 环境启动
+    "development": "vite --mode development ",     //  development 环境启动
+    "build": "vite build",                          // 默认development 打包
+    "build-test": "vite build --mode development",    // development 打包 （构建NODE_ENV属性不回变）
+    "production": "vite --mode production",         //  production 生产环境启动
+    "build-pro": "vite build --mode production"       //  production 生产环境打包 作用不大（构建NODE_ENV属性不回变）
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "core-js": "^3.8.3",
+    "element-plus": "^2.4.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^4.4.11"
+  }
+}

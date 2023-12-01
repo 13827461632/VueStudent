@@ -1,0 +1,26 @@
+{
+  "name": "mystudey-vue03",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "development": "vite --mode development ",
+    "buildtest": "vite build --mode development",
+    "uat": "vite --mode uat ",
+    "builduat": "vite build --mode uat",
+    "production": "vite --mode production",
+    "buildpro": "vite build --mode production"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "core-js": "^3.8.3",
+    "element-plus": "^2.4.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^4.4.11"
+  }
+}
